@@ -1,0 +1,26 @@
+{
+    "name": "product-search-app",
+    "version": "1.0.0",
+    "description": "Product search application with MongoDB, Express, React, and Node.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run start:backend && npm run start:frontend",
+        "start:backend": "cd backend && npm run start",
+        "start:frontend": "cd frontend && npm run start",
+        "dev:backend": "cd backend && npm run dev",
+        "dev:frontend": "cd frontend && npm run start",
+        "dev": "npm run dev:backend && npm run dev:frontend",
+        "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "mongodb",
+        "express",
+        "react",
+        "node",
+        "search",
+        "products"
+    ],
+    "author": "",
+    "license": "ISC"
+}
